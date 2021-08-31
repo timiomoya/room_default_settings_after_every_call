@@ -1,4 +1,6 @@
 # Resetting device settings after every meeting 
 
 
-Webex Macro to restore device settings to default value after a call is over 
+This Webex device Macro restores device settings to default values after a call is over 
+
+Values reset are on SpeakerTrack and selfview settings 
