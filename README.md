@@ -1,4 +1,4 @@
-# room_default_settings_after_every_call
+# Resetting device settings after every meeting 
 
 
 Webex Macro to restore device settings to default value after a call is over 
