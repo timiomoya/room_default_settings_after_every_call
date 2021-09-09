@@ -24,6 +24,8 @@ xapi.Event.CallDisconnect.on(value => {
         xapi.Command.Cameras.SpeakerTrack.Activate({ });
         xapi.Command.Video.Selfview.Set({ FullscreenMode: 'Off', Mode: 'On', PIPPosition: 'LowerRight'});
         xapi.Command.Audio.Volume.Set({Level: '70'});
+        xapi.Config.Audio.Microphones.NoiseRemoval.Mode.set('Enabled');
+        xapi.Command.Audio.Microphones.NoiseRemoval.Activate({ });
 
 
     }
